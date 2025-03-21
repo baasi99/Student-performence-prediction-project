@@ -53,10 +53,10 @@ st.markdown(
         margin-bottom: 5px;
         # width: 500%;
     }}
-    # input[type=number]:focus {{
-    #     outline: none;
-    #     box-shadow: 0px 0px 5px #f39c12; /* Glow effect */
-    # }}
+    input[type=number]:focus {{
+        outline: none;
+        box-shadow: 0px 0px 5px #f39c12; /* Glow effect */
+    }}
 
     /* Style the select box */
     select {{
