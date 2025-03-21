@@ -47,24 +47,16 @@ st.markdown(
 st.markdown(
     """
     <style>
-    /* Style input fields */
-    # input[type=number] {
-    #     border: 2px solid #f39c12;
-    #     border-radius: 10px; /* Rounded corners */
-    #     padding: 5px;
-    #     # width: 100px; /* Shorter width */
-    #     font-size: 14px;
-    # }
     
-    div[data-testid="stNumberInput"] {{
-        margin-top: 5px; /* Adjust space between input box and label */
-        margin-bottom: 5px;
-        # width: 500%;
-    }}
-    input[type=number]:focus {{
-        outline: none;
-        box-shadow: 0px 0px 5px #f39c12; /* Glow effect */
-    }}
+    # div[data-testid="stNumberInput"] {{
+    #     margin-top: 5px; /* Adjust space between input box and label */
+    #     margin-bottom: 5px;
+    #     # width: 500%;
+    # }}
+    # input[type=number]:focus {{
+    #     outline: none;
+    #     box-shadow: 0px 0px 5px #f39c12; /* Glow effect */
+    # }}
 
     /* Style the select box */
     select {{
