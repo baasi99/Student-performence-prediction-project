@@ -51,7 +51,7 @@ st.markdown(
     div[data-testid="stNumberInput"] {{
         margin-top: 5px; /* Adjust space between input box and label */
         margin-bottom: 5px;
-        # width: 500%;
+        width: 500%;
     }}
     input[type=number]:focus {{
         outline: none;
@@ -65,6 +65,7 @@ st.markdown(
         padding: 5px;
         font-size: 14px;
     }}
+    
     /* Style form section */
     .form-section {{
         background-color: #f9f9f9;
@@ -93,16 +94,16 @@ with col2:
     eca = st.selectbox("🎭 Extracurricular Activities", ["Yes", "No"])
 
 # Add custom CSS for opaque background
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# st.markdown(
+#     """
+#     <style>
+#     .stApp {
+#         background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+#     }
+#     </style>
+#     """,
+#     unsafe_allow_html=True
+# )
 
 # Encode categorical data
 eca_encoded = encoder.transform([eca])[0]  # Ensure encoder compatibility
