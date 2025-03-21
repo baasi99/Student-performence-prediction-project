@@ -59,7 +59,7 @@ st.markdown(
     div[data-testid="stNumberInput"] {{
         margin-top: 5px; /* Adjust space between input box and label */
         margin-bottom: 5px;
-        width: 500%;
+        # width: 500%;
     }}
     input[type=number]:focus {{
         outline: none;
