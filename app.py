@@ -127,25 +127,25 @@ if st.button("🎯Predict", key="predict_button"):
     st.success(f"📌 Predicted Student Performance is: **{prediction:.2f}**")
 
 # Add custom CSS for the red button
-st.markdown(
-    """
-    <style>
-    div.stButton > button#predict_button {{
-        background-color: red;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        font-size: 16px;
-        border-radius: 5px;
-        cursor: pointer;
-    }}
-    div.stButton > button#predict_button:hover {{
-        background-color: darkred;
-    }}
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# st.markdown(
+#     """
+#     <style>
+#     div.stButton > button#predict_button {{
+#         background-color: red;
+#         color: white;
+#         border: none;
+#         padding: 10px 20px;
+#         font-size: 16px;
+#         border-radius: 5px;
+#         cursor: pointer;
+#     }}
+#     div.stButton > button#predict_button:hover {{
+#         background-color: darkred;
+#     }}
+#     </style>
+#     """,
+#     unsafe_allow_html=True
+# )
 
 
 # Footer section for a professional look
