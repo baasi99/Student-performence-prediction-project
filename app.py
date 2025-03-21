@@ -55,31 +55,32 @@ st.markdown(
     #     # width: 100px; /* Shorter width */
     #     font-size: 14px;
     # }
-    div[data-testid="stNumberInput"] {
+    
+    div[data-testid="stNumberInput"] {{
         margin-top: 5px; /* Adjust space between input box and label */
         margin-bottom: 5px;
         width: 500%;
-    }
-    input[type=number]:focus {
+    }}
+    input[type=number]:focus {{
         outline: none;
         box-shadow: 0px 0px 5px #f39c12; /* Glow effect */
-    }
+    }}
 
     /* Style the select box */
-    select {
+    select {{
         border: 2px solid #f39c12;
         border-radius: 10px;
         padding: 5px;
         font-size: 14px;
-    }
+    }}
     /* Style form section */
-    .form-section {
+    .form-section {{
         background-color: #f9f9f9;
         border-radius: 15px;
         padding: 20px;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         margin-bottom: 20px;
-    }
+    }}
     </style>
     """,
     unsafe_allow_html=True,
@@ -136,7 +137,7 @@ if st.button("🎯Predict", key="predict_button"):
 st.markdown(
     """
     <style>
-    div.stButton > button#predict_button {
+    div.stButton > button#predict_button {{
         background-color: red;
         color: white;
         border: none;
@@ -144,10 +145,10 @@ st.markdown(
         font-size: 16px;
         border-radius: 5px;
         cursor: pointer;
-    }
-    div.stButton > button#predict_button:hover {
+    }}
+    div.stButton > button#predict_button:hover {{
         background-color: darkred;
-    }
+    }}
     </style>
     """,
     unsafe_allow_html=True
