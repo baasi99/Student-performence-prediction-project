@@ -48,11 +48,11 @@ st.markdown(
     """
     <style>
     
-    # div[data-testid="stNumberInput"] {{
-    #     margin-top: 5px; /* Adjust space between input box and label */
-    #     margin-bottom: 5px;
-    #     # width: 500%;
-    # }}
+    div[data-testid="stNumberInput"] {{
+        margin-top: 5px; /* Adjust space between input box and label */
+        margin-bottom: 5px;
+        # width: 500%;
+    }}
     # input[type=number]:focus {{
     #     outline: none;
     #     box-shadow: 0px 0px 5px #f39c12; /* Glow effect */
